@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    color:chocolate;
+    font-size: 20px;
+}
+a:visited{
+    color: darkorchid;
+}
+a:hover{
+    color: darkkhaki;
+}
+a:active{
+    color:fuchsia;
+}
+a::after{
+    content: ' →';
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(0, 132, 248);
+}
+h1{
+    width: 500px;
+    height: 40px;
+    border: 10px solid rgba(255, 0, 0, 0.452);
+    outline: 12px solid rgba(0, 0, 255, 0.342);
+    padding: 10px 20px;
+    margin: 3px 2px;
+    margin:auto;
+}

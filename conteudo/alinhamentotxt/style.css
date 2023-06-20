@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* Tipos de alinhamento de texto*/
+
+
+h1 { /*Tipo center*/
+    text-align: center;
+}
+
+h2#h21{
+    margin: 1px;
+    background-color: #0000ff34;
+}
+p#p1{ /*Tipo justify*/
+    text-align: justify;
+    color: rgba(0, 0, 139, 0.932);
+}

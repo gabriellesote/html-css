@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e Âncoras</title>
+    <link rel="shortcut icon" href="favicon.ico.ico" type="image/x-icon">
+    <style>
+        mark {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Usando links e âncoras!</h1>
+    <h2>Links externos</h2>
+    <h3>Usando a tag <code>&lt;a href="" target="_blank" rel= "external"&gt; texto &lt;/a&gt;</code>:</h3>
+    <p>Acesse meu site: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="external">site da
+            Gabi!</a></p>
+    <p>
+        Em casos de links externos, é recomendado que ao clicar, o link seja <strong>aberto em outra aba</strong>!
+        <br> Então usamos o atributo <mark> <code>target= "_blank"</code></mark>.
+    </p>
+    <p>Existem um recurso que indica qual é a natureza de destino, que é o atributo rel. Este atributo aceita os
+        seguintes valores:
+    <dl>
+        <dt><mark>next</mark></dt>
+        <dd>Indica que o link é para a próxima parte do documento atual</dd>
+        <dt><mark>prev</mark></dt>
+        <dd>Indica que o link é para a parte anterior do documento atual</dd>
+        <dt><mark>author</mark></dt>
+        <dd>Indica que é um link para o site do autor do artigo atual</dd>
+        <dt><mark>external</mark></dt>
+        <dd>Indica que é um link para outro site que não faz parte do site atual</dd>
+        <dt><mark>nofollow</mark></dt>
+        <dd>Indica que é um link para um site não endossado, como um link pago</dd>
+    </dl>
+    <em>É uma boa prática usar este atributo!</em>
+
+    <p>Este é um exemplo de como ficaria o link sem os atributos target e rel:
+        <br> Usando apenas a tag <code>&lt;a href=""&gt; <small>texto</small> &lt;/a&gt;</code>
+        <br> Acesse meu site: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">site da Gabi!</a>
+        <br> Fica ruim para o usuário, pois o seu site será sobreposto, o que dificulta na utilização do site
+    </p>
+    <hr>
+    <h2>Links Internos</h2>
+    <h3>HOME</h3>
+    <p>Aqui é a Home do site</p>
+    <p><a href="pag002.html" target="_self" rel="next">2</a> | <a href="tipos/pag003.html" target="_self"
+            rel="next">3</a></p>
+    <hr>
+    <h2>Links para downloads</h2>
+    <p>
+    <ul>
+        <li>
+            <a href="arquivos/O-Dossie-Pelicano-John-Grisham.pdf" download="O-Dossie-Pelicano-John-Grisham" type="application/pdf">PDF</a>
+        </li>
+        <li>
+            <a href="arquivos/favicon_io.zip" download="favicon_io" type="application/zip">Zip</a>
+        </li>
+        <li>
+            <a href="arquivos/video.mp4" type="video/mp4" download="video">Video</a>
+        </li>
+    </ul>
+    </p>
+</body>
+
+</html>

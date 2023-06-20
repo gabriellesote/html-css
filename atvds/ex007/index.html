@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico.ico" type="image/x-icon">
+    <title>Formatações</title>
+    <style>
+        mark{
+            background-color:rgb(255, 182, 239);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Principais formatações</h1>
+    <h2> Negrito / Destaque</h2>
+    <p>
+        Para fazer o<strong> Negrito</strong>, é usado a tag &lt;strong&gt; pois é uma tag semântica, melhor usá-la no
+        HTML. <br> Diferente da tag &lt;b&gt; que devse ser usada no CSS por ser uma tag de <strong>formato</strong>!
+    </p>
+
+    <h2>Itálico / Ênfase</h2>
+    <p>
+        Para fazer o <em> Itálico</em>, é usado a tag &lt;em&gt; pois é uma tag semântica. Diferente da tag &lt;i&gt;
+        que deve ser utilizada no CSS por ser uma tag de <strong>formato</strong>!
+    </p>
+    <h2>Texto marcado</h2>
+    <p>  
+        Para fazer m texto <mark >marcado</mark>, é usado a tag &lt;mark&gt;. Aparentemente o VSCODE ainda não automatizou a tag mark.
+        <br> Caso queira que todos os marks sejam iguais, faça: 
+        <br> <pre>
+            <code>
+                &lt;head&gt;
+                  &lt;style&gt;
+                  mark{
+                    background-color: cor;
+                  }
+                  &lt;/style&gt;
+                &lt;/head&gt;
+            </code>
+        </pre>
+    </p>
+    <h2>Texto grande e pequeno</h2>
+    <p>
+        Para por o <big>texto grande</big> era usado a tag &lt;big&gt;, porém, esta tag está obsoleta pois não há sentido em utilizar uma tag HTML sendo que tem o CSS para a formatação.
+    </p>
+    <p>
+       Para por o <small>texto pequeno</small> ainda é usado a tag &lt;small&gt;. 
+    </p>
+
+    <h2>Texto Deletado</h2>
+    <p> 
+        Tag: &lt;del&gt; <del>'deleta' o texto</del>
+        <br>Tag: &lt;ins&gt; <ins>sublinha o texto</ins>
+    </p>
+    <h2>Texto Sobrecrito e Subscrito</h2>
+    <p>
+        Tag: &lt;sup&gt; 24<sup>2</sup> deixa o texto 'elevado'
+        <br>Tag: &lt;sub&gt; H<sub>2</sub>O deixa o texto 'abaixado'
+    </p>
+</body>
+
+</html>

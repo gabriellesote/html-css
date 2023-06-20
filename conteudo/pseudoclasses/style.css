@@ -1,0 +1,23 @@
+@charset "utf-8";
+div {
+    text-align: center;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+div>p{ /* acessando a tag p usando o >*/
+    display: none; /* esconde o p*/
+    color: blue;
+}
+
+div:hover > p{
+    display: block;  /* mostra o p ao passar o  mouse*/
+}
+
+div:hover { /* :hover -> ao passar o mouse o comando dentro do {} irá ser executado*/
+    background-color: rgba(255, 107, 255, 0.733);
+    
+}

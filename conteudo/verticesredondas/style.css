@@ -1,0 +1,46 @@
+@charset "utf-8";
+body{
+    background-color: #52404370;
+}
+
+/* A tag  border-radius: arredonda as vertices de acordo com os px*/
+main{ 
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+div#bola{
+    background-color: rgb(255, 0, 0);
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 50%;
+}
+section{
+    background-color: white;
+}
+h1#bord{
+    border: 10px solid black;
+    border-image-source: url('foto/borda.png');
+    border-image-slice: 23;
+    border-image-repeat: repeat;
+    background-color:  white;
+    padding: 5px;
+    width: 300px;
+    margin: auto;
+}
+img{
+    display: none;
+}
+pre{
+    color: rgb(32, 97, 218);
+    font-size: small;
+    font-family:  monospace;
+    border-radius: 20px;
+    margin: auto;
+    width: 500px;
+    height: 150px;
+    background-color: #92509436;
+    padding: 10px;
+}

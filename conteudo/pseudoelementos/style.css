@@ -1,0 +1,51 @@
+@charset "utf-8";
+ul{
+    width: 300px;
+    height: 300px;
+}
+a {
+ 
+    color: pink;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ a:visited { /* :visited -> se o site já foi visitado, ele irá ficar do jeito especificado no {}*/
+    color: rgb(255, 123, 145);
+ }
+
+ a:hover {
+    color: rgba(255, 0, 136, 0.452);
+ }
+
+ a:active { /* :active ->  ao clicar nele, ele ficará do jeito especificado no {}*/
+    color: black;
+ }
+
+a::after { /* ::after -> adiciona coisas depois do <a>, os elementos adicionados ficam do jeito especificado no {}*/
+    content: ' ↑ ';
+    text-decoration:none ;
+    font-weight: normal;
+    color: rgb(226, 165, 175);
+}
+
+a::before { /* ::before -> adiciona coisas antes do <a>, os elementos adicionados ficam do jeito especificado no {}*/
+    content: '↑ ';
+    text-decoration:none ;
+    font-weight: normal;
+    color: rgb(226, 165, 175);
+}
+
+.special{
+    background-color: rgba(216, 216, 255, 0.301);
+}
+
+.special::before { /* Pseudo-elementos funcionam com classes também!!!*/
+    content: '💗';
+
+}
+
+
+ 

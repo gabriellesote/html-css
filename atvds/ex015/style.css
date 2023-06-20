@@ -1,0 +1,22 @@
+@charset "utf-8";
+@font-face {
+    font-family: gta;
+    src: url(fonts/bankgothic-regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: aliceblue;
+}
+main{
+    color: salmon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(248, 214, 240, 0.795);
+    padding: 15px;
+    border-radius: 10px;
+}
+h1{
+    font-family: gta;
+    font-weight:  normal;
+}
