@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-body {
+/* body {
     height: 100vh;
     background-color: skyblue;
     background-image: url(../img/wallpaper002.jpg);
@@ -12,8 +12,13 @@ body {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-}
+} */
 
+body {
+    height: 100vh;
+    background: blue url(../img/wallpaper002.jpg) center center  no-repeat fixed;
+    background-size: cover;
+}
 header {
     background-color: aliceblue;
     padding: 10px;
