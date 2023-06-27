@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
 /* font-family: 'Exo', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+
 /* font-family: 'Kalam', cursive; */
 * {
     margin: 0;
@@ -13,7 +14,8 @@
     --marromclaro: #C38154;
     --amarelo: #FFC26F;
     --beje: #F9E0BB;
-    --fonte-texto: 'Kalam', cursive;;
+    --fonte-texto: 'Kalam', cursive;
+    ;
     --fonte-titulo: 'Exo', sans-serif;
     --fonte-sub-titulo: 'Ysabeau Infant', sans-serif;
 }
@@ -70,12 +72,12 @@ section.bg-img {
 }
 
 section#daisy {
-    background: var(--marromclaro) url(../img/daisy-m.jpg) right bottom no-repeat fixed;
+    background: var(--marromclaro) url(../img/daisy-m.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 section#letter {
-    background: var(--marromclaro) url(../img/letter-m.jpg) center bottom no-repeat fixed;
+    background: var(--marromclaro) url(../img/letter-m.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
