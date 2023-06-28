@@ -69,6 +69,7 @@ section.bg-img {
     display: inline-block;
     padding: 15px;
     border-radius: 20px;
+    text-shadow: 2px 2px 0px black;
 }
 
 section#daisy {
