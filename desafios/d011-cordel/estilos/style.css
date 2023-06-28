@@ -50,7 +50,7 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     font-size: 3vw;
-    padding-left: 40px;
+    padding-left: 30px;
     font-family: var(--fonte-texto);
 }
 
@@ -62,6 +62,7 @@ section.bg-branco {
 section.bg-img {
     background-color: #0000006c;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px #00000075;
 }
 
 .bg-img p {
