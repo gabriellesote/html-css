@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 3 </title>
+    <style>
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: grey;
+        }
+
+        td,
+        th {
+            border: 2px solid black;
+            padding: 10px;
+
+        }
+
+        tbody {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mesclando células</h1>
+    <table>
+        <caption>Mescladas :0</caption>
+        <thead>
+            <tr>
+                <th>X</th>
+                <th colspan="2">Y</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+            </tr>
+            <tr>
+                <td>d</td>
+                <td>e</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <td>g</td>
+                <td rowspan="2">h</td>
+                <td>i</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>3</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>4</td>
+                <td>6</td>
+            </tr>
+        
+        </tbody>
+    </table>
+</body>
+
+</html>
