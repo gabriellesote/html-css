@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iframes</title>
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
+
 <body>
-    <h1>Testando Iframe!</h1>
-    <p>
-        opa olha aqui
-        <iframe src="https://gabriellesote.github.io/projeto-cordel/" frameborder="0" scrolling="auto"></iframe>
-    </p>
+    <div id="container">
+        <p id="aviso">Este conteúdo ainda não está responsivo!!</p>
+        <h1>Testando Iframe!</h1>
+        
+        <p>Fiz alguns projetos, clique em um deles para visualiza-los</p>
+        <ul>
+            <li><a href="https://gabriellesote.github.io/projeto-cordel/" target="frame">Projeto Cordel</a></li>
+            <li><a href="https://gabriellesote.github.io/projeto-android/" target="frame">Projeto Android</a></li>
+            <li><a href="https://gabriellesote.github.io/projeto-futebol/index" target="frame">Projeto Futebol</a></li>
+        </ul>
+        <div id="frame">
+            
+            <iframe srcdoc="<h1 align='center'> O site será exibido aqui dentro! <br>
+                <img src='https://icons.iconarchive.com/icons/pictogrammers/material/72/github-icon.png' width='72' height='72'>" name="frame" frameborder="0" >
+                <p>Seu navegador não é compatível! Mas você pode acessar meus projetos aqui: <a
+                        href="https://github.com/gabriellesote">Gabrielle-GitHub</a></p>
+            </iframe>
+            
+        </div>
+    </div>
+
+
 </body>
+
 </html>
