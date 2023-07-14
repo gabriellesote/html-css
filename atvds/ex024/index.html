@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários 2</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
     <main>
         <section>
@@ -13,14 +21,34 @@
         </section>
 
         <section>
-            <form >
+            <form>
                 <p>
                     <label for="inome">Nome</label>
-                    <input type="text" name="nome" id="inome" placeholder="insira seu nome" size="20" minlength="20" autocomplete="additional-name">
+                    <input type="text" name="nome" id="inome" placeholder="insira seu nome" size="20" minlength="20"
+                        autocomplete="additional-name">
                 </p>
                 <p>
                     <label for="isenha">Senha</label>
-                    <input type="password" name="senha" id="isenha" placeholder="insira uma senha" minlength="8" autocomplete="current-password" >
+                    <input type="password" name="senha" id="isenha" placeholder="insira uma senha" minlength="8"
+                        autocomplete="current-password">
+                </p>
+              
+                <br>
+                <p>
+                    <label for="inumero">Nota:</label>
+                    <input type="number" name="numero" id="inumero" min="0" max="10" step="0.5" required>
+                </p>
+                <p>
+                    <label for="isemestre">Semestre</label>
+                    <input type="month" name="semestre" id="isemestre" required >
+                </p>
+                <p>
+                    <label for="idia">Data</label>
+                    <input type="date" name="dia" id="idia" required >
+                </p>
+                <p>
+                    <label for="ihora">Horas</label>
+                    <input type="time" name="hora" id="ihora" required >
                 </p>
                 <p>
                     <input type="submit" value="Log In">
@@ -30,6 +58,7 @@
         </section>
 
     </main>
-    
+
 </body>
+
 </html>
