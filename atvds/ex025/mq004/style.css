@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+img{
+    width: 72px;
+    height: 72px;
+    display: block;
+    cursor: pointer;
+}
+ul{
+    display: block;
+    background-color: pink;
+    width: 100px;
+}

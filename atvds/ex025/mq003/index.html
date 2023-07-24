@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estile/style.css">
+</head>
+<body>
+    <header>
+        <h1>Hello world</h1>
+        <span id="burguer" class="material-icons md-dark" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+                <li><a href="#">Option 3</a></li>
+                <li><a href="#">Option 4</a></li>
+                <li><a href="#">Option 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Olá Mundo!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, in at amet temporibus itaque, ratione pariatur aspernatur eos quidem nulla officiis. Quam pariatur unde quasi iure nulla velit neque exercitationem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quam eum eos esse similique magni, excepturi fuga fugit eaque magnam consectetur quas, molestias ipsum dolore laboriosam reiciendis modi dignissimos. Quidem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iste repudiandae consequuntur modi odio, culpa asperiores cumque natus fuga quam eaque illo nesciunt. Quia, dolorum perferendis! Ducimus delectus modi placeat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem temporibus rem totam architecto eius recusandae modi inventore, quo, quam, doloribus porro ut! Quos eius minima vitae assumenda doloribus, harum voluptas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eaque dolorem expedita vitae quasi esse eum, quidem maxime praesentium sit, reiciendis at minus totam distinctio. Est officia mollitia iusto incidunt?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, expedita reiciendis sunt perspiciatis sequi necessitatibus repudiandae, dignissimos magnam explicabo dolore nam nemo incidunt quaerat obcaecati tempora architecto provident quam suscipit.</p>
+        </article>
+    </main>
+
+    <script>
+function clickMenu(){
+    if (itens.style.display == 'block'){
+     itens.style.display = 'none'
+    }else{
+     itens.style.display = 'block'
+    }
+ }
+
+    </script>
+</body>
+</html>

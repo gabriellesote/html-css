@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: #007fb1;
+}
+
+/* === Cabeçalho === */
+
+header {
+    background-color: #f16c77;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+#burguer {
+    background-color: #d40e0e88;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+#burguer:hover{
+    background-color: #ffffff;
+    color: #d40e0e88;
+}
+
+menu{
+    display: block;
+}
+
+menu>ul>li>a {
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+menu>ul>li:hover {
+    background-color: #ffa4ac;
+}
+
+menu>ul>li {
+    background-color: #ff5866a9;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin-bottom: 2px;
+}
+
+
+/* === Conteúdo === */
+main {
+    background-color: #ffffff;
+    width: 90vw;
+
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+main>article>h2 {
+    text-align: center;
+}
+
+main>article>p {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px 10px;
+}
