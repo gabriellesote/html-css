@@ -4,7 +4,13 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+
 }
+::-webkit-scrollbar {
+    width:0px;
+    height: 0px;
+}
+
 
 html,
 body {
@@ -19,7 +25,7 @@ body {
 /* === Cabeçalho === */
 
 header {
-    background-color: #f16c77;
+    background-color: #e8eb2e;
 }
 
 h1 {
@@ -28,7 +34,7 @@ h1 {
 }
 
 #burguer {
-    background-color: #d40e0e88;
+    background-color: #d40e0e;
     display: block;
     padding: 10px;
     cursor: pointer;
@@ -36,7 +42,7 @@ h1 {
 }
 #burguer:hover{
     background-color: #ffffff;
-    color: #d40e0e88;
+    color: #d40e0e;
 }
 
 menu{
@@ -65,7 +71,7 @@ menu>ul>li {
 /* === Conteúdo === */
 main {
     background-color: #ffffff;
-    width: 90vw;
+    width: 80vw;
 
     margin: 20px auto;
     border-radius: 20px;
